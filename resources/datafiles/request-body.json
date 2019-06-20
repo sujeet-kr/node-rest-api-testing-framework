@@ -1,0 +1,3 @@
+{
+    "post-sample-notifications":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><PostTelemetryRequest xmlns:ns2=\"urn:com:global:common:schema:PostTelemetryData:1\"><ns2:PartnerVehicles><ns2:PartnerVehicle><ns2:partnerNotificationID>48225778</ns2:partnerNotificationID></ns2:PartnerVehicle></ns2:PartnerVehicles></PostTelemetryRequest>"
+}

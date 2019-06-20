@@ -1,0 +1,8 @@
+# Ignore node packages
+node_modules
+
+# Ignore reports artifacts
+reports
+
+# Ignore the dummy file created for passing allure reports data
+dummy-temp-123.txt

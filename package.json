@@ -1,0 +1,25 @@
+{
+  "name": "rest-testing-framework",
+  "version": "1.0.0",
+  "description": "Rest API Testing framework with CucumberJS",
+  "main": "index.js",
+  "dependencies": {
+    "allure": "0.0.0",
+    "allure-cucumberjs": "^2.0.0-beta.3",
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "cucumber": "^5.0.3",
+    "cucumberjs-allure2-reporter": "^1.3.0",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.13.1",
+    "yaml": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-dev": "rm -f reports/allure-results/*.json && ENV='dev' ./node_modules/.bin/cucumber-js --format './support/reporter.js:./dummy-temp-123.txt' --format 'progress' --require './step-definitions/*.js' --require './support/*.js'",
+    "cucumber": "./node_modules/.bin/cucumber-js",
+    "snippets": "node_modules/.bin/cucumber-js --require './step-definitions/*.js' --format 'snippets'"
+  },
+  "author": "sujeet.kr@hotmail.com",
+  "license": "MIT"
+}

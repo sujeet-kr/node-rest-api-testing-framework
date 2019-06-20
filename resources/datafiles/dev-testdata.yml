@@ -1,0 +1,14 @@
+DevEmailAccount:
+  email: sujeet@sujeet-kr.com
+  invalidEmail: testemail@testemail123.com
+  
+FilteringPage:
+    selectAssetStatusMsg: Select Asset Status
+    selectAssetTypeMsg: Select Asset Type
+    Rail: Rail
+    Port: Port
+
+SearchPage:
+  noResultFoundCount: 2
+  assetCount: '0'
+  memberCount: '0'

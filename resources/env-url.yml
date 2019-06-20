@@ -1,0 +1,5 @@
+dev:
+  base_url: https://sprintdev.sampleapp.com/MicroService/
+
+staging:
+  base-url: https://staging-web.sampleapp.com
